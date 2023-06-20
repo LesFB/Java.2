@@ -1,0 +1,18 @@
+package condicionalesYCiclos;
+import java.util.Scanner;
+
+public class condicionalesYCiclos {
+	public static void main(String[] args) {
+		
+		System.out.println("Programa para calcular la hora");
+		System.out.println("Agrega hora en formato de 24h");
+		Scanner hora = new Scanner(System.in);
+		
+		
+		
+		if(hora >= 0 && hora <=24){
+		System.out.println("Hola solecito");
+		}
+		
+	}
+}

@@ -1,0 +1,47 @@
+package tiposDeDatosYVariables;
+
+public class Ejercicios {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			System.out.println("Hola mundo");
+			
+			byte salas = 10;
+			System.out.println(salas);
+			
+			short asientos=1120;
+			System.out.println(asientos);
+			
+			int dulces = 3476;
+			System.out.println(dulces);
+			
+			long clientes = 313600;
+			System.out.println(clientes);
+			
+			float palomitas = 35.5f;
+			System.out.println(palomitas);
+					
+			double ganancias = 235689741.5d;
+			System.out.println(ganancias);
+			
+			double num = 59.7d;
+			int numInt = (int)num;
+			System.out.println("double"+numInt);
+			
+			long numlong = (long) num;
+			System.out.println("long"+numlong);
+			
+			String cantidad = "85";
+			String precio ="59.7";
+			int cantEntero = Integer.parseInt(cantidad);
+			double precioDouble = Double.parseDouble(precio);
+			System.out.println("El valor de la compra es: "+(cantEntero * precioDouble));
+			
+			int dias = 28;
+			dias = dias + 2;
+			System.out.println("dias: "+dias);
+	}
+	
+	
+	
+}
