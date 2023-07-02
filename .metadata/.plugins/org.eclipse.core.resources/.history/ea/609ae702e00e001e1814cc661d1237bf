@@ -1,8 +1,0 @@
-package ejercicioCuentaAhorro;
-
-public class CajaAhorro extends Cuenta{
-	
-	public void heredarDatos() {
-		String 
-	}
-}
